@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
+.header #nav:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrow {
+  display: inline-block;
+  width: 130px;
+  margin-top: 110px;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  margin-left: -20px;
+  margin-right: 40px;
+}
+
+.footer {
+  background-color: black;
+  height: 10vh;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyEFP {
+  color: #555252;
+}
+
+@media (max-width: 405px) {
+  .logo {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 449px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 350px) {
+  .logo {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.titlepadding {
+  padding-top: 80px;
+}
+
+.shorttitle {
+  font-size: 75px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+  width: 600px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 3px solid white;
+}
+
+@media (max-width: 750px) {
+  .titlepadding {
+    padding-top: 120px;
+  }
+  .shorttitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .titlepadding {
+    padding-top: 180px;
+  }
+  .shorttitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+@keyframes imagens1 {
+  0% {
+    background-image: url("../../ImagensUFC/conorpesagem.jpg");
+  }
+  50% {
+    background-image: url("../../ImagensUFC/cage2.jpg");
+  }
+  100% {
+    background-image: url("../../ImagensUFC/conorpesagem.jpg");
+  }
+}
+@keyframes imagens2 {
+  0% {
+    background-image: url("../../ImagensUFC/conor1.jpg");
+  }
+  60% {
+    background-image: url("../../ImagensUFC/stadium2.jpg");
+  }
+  100% {
+    background-image: url("../../ImagensUFC/conor1.jpg");
+  }
+}
+.container00.container02 {
+  background-image: url(../../ImagensUFC/conor1.jpg);
+  animation-name: imagens2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+.container00.container01 {
+  background-image: url("../../ImagensUFC/conorpesagem.jpg");
+  animation-name: imagens1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+.container00.container05 {
+  background-image: url("/ImagensUFC/cage3.jpg");
+}
+.container00.container07 {
+  background-image: url("/ImagensUFC/silvasonnen.jpg");
+}
+.container00.container08 {
+  background-image: url("/ImagensUFC/VitorAnderson.jpg");
+}
+.container00.container09 {
+  background-image: url("/ImagensUFC/andersonnocaute.jpg");
+}
+.container00.container10 {
+  background-image: url("/ImagensUFC/andersonperna3.jpg");
+}
+.container00.container11 {
+  background-image: url("/ImagensUFC/conoraldo.jpg");
+}
+.container00.container12 {
+  background-image: url("/ImagensUFC/duplocampeao.jpg");
+}
+.container00.container13 {
+  background-image: url("/ImagensUFC/andersonadesanya.jpg");
+}
+.container00.container14 {
+  background-image: url("/ImagensUFC/leonUsman.jpg");
+}
+
+.titlecontent3 {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlemoments {
+  font-size: 95px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+  text-shadow: 1px 2px 1px black;
+}
+
+.subtitlemoments {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.container06 {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.momentsdesc {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.containerRight {
+  margin-left: 55%;
+  padding-top: 10%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.titlem {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.subtitlem {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.containerLeft {
+  margin-left: 5%;
+  padding-top: 10%;
+  width: 750px;
+  text-shadow: 1px 1px 1px black;
+  justify-self: flex-start;
+}
+
+.containerm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.containerm img {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 350px;
+  border: 6px solid black;
+  background-color: black;
+}
+.containerm .gif {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .momentsdesc {
+    font-size: 15px;
+    width: auto;
+  }
+  .titlemoments {
+    font-size: 70px;
+  }
+  .subtitlemoments {
+    font-size: 25px;
+  }
+  .titlem {
+    font-size: 50px;
+  }
+  .subtitlem {
+    font-size: 15px;
+  }
+  .containerm img {
+    height: 150px;
+    width: 300px;
+    border: 6px solid black;
+    background-color: black;
+  }
+  .containerRight {
+    margin-left: 15%;
+    width: auto;
+  }
+  .containerLeft {
+    margin-left: 15%;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .titlemoments {
+    font-size: 60px;
+  }
+  .subtitlemoments {
+    font-size: 20px;
+  }
+  .titlem {
+    font-size: 40px;
+  }
+  .containerRight {
+    margin-left: 5%;
+  }
+  .containerLeft {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 450px) {
+  .titlemoments {
+    font-size: 50px;
+  }
+  .subtitlemoments {
+    font-size: 17px;
+  }
+  .titlem {
+    font-size: 35px;
+  }
+}
+.container00.container03 {
+  background-image: url("/ImagensUFC/stars2.jpg");
+}
+.container00.container04 {
+  background-image: url("/ImagensUFC/stars3.jpg");
+}
+.container00.carrossel01 {
+  background-image: url("/ImagensUFC/jones.jpg");
+}
+.container00.carrossel02 {
+  background-image: url("/ImagensUFC/conor2.jpg");
+}
+.container00.carrossel03 {
+  background-image: url("/ImagensUFC/VitorAnderson.jpg");
+}
+.container00.carrossel04 {
+  background-image: url("/ImagensUFC/bronx.png");
+}
+.container00.carrossel05 {
+  background-image: url("/ImagensUFC/aldo.jpg");
+}
+.container00.carrossel06 {
+  background-image: url("/ImagensUFC/adesanya.jpg");
+}
+.container00.carrossel07 {
+  background-image: url("/ImagensUFC/GeorgesStPierre.jpg");
+}
+
+.titlestars {
+  font-size: 95px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+  text-shadow: 1px 2px 1px black;
+}
+
+.subtitlestars {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+}
+
+.titlecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titlenumb {
+  font-size: 90px;
+}
+.numbers .subtitlenumb {
+  font-size: 25px;
+}
+
+.starsdesc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+  text-shadow: 1px 2px 1px black;
+}
+
+.containerstarsdesc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 5%;
+  padding-top: 15%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  font-size: 18px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 45vh;
+  padding-top: 140px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #555252;
+}
+.downloadDesc a:hover {
+  color: #b9b9b9;
+}
+.downloadDesc button {
+  border: 3px solid white;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .numbers .titlenumb {
+    font-size: 80px;
+  }
+  .numbers .subtitlenumb {
+    font-size: 20px;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+  .starsdesc {
+    width: auto;
+  }
+  .titlestars {
+    font-size: 70px;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+  .titlestars {
+    font-size: 50px;
+  }
+  .subtitlestars {
+    font-size: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .starsdesc {
+    font-size: 18px;
+    line-height: auto;
+  }
+  .subtitlestars {
+    font-size: 17px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

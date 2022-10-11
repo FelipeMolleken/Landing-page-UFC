@@ -1,0 +1,60 @@
+
+.titlepadding{
+    padding-top: 80px;
+}
+.shorttitle{
+    font-size: 75px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 514;
+    width: 600px;
+}
+#button{
+    padding: 15px 35px;
+    border: 3px solid white;
+}
+@media (max-width: 750px){
+    .titlepadding{
+        padding-top: 120px;  
+    }
+    .shorttitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
+@media(max-width: 380px){
+    .titlepadding{
+        padding-top: 180px;
+    }
+    .shorttitle{
+        width: auto;
+        font-size: 40px;
+    }
+}
+@keyframes imagens1{
+    0%{background-image: url("../../ImagensUFC/conorpesagem.jpg");}
+    50%{background-image: url("../../ImagensUFC/cage2.jpg");}
+    100%{background-image: url("../../ImagensUFC/conorpesagem.jpg");}
+    }
+@keyframes imagens2{
+    0%{background-image: url("../../ImagensUFC/conor1.jpg");}
+    60%{background-image: url("../../ImagensUFC/stadium2.jpg");}
+    100%{background-image: url("../../ImagensUFC/conor1.jpg");}
+}
+.container00{
+    &.container02{
+        background-image: url(../../ImagensUFC/conor1.jpg);
+        animation-name: imagens2;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+    }
+}
+.container00{
+    &.container01{
+        background-image: url("../../ImagensUFC/conorpesagem.jpg");
+        animation-name: imagens1;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+    }
+}

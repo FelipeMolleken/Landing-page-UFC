@@ -2,9 +2,9 @@
 
 <p align="center">Esse projeto é um site fictício do UFC que fiz para práticar minhas habilidades, usei como base um projeto do curso da OneBitCode e também conhecimentos que adquiri com o curso ProgramadorBR e da Rocketseat.</p>
 <h1 align="center">
-  <img alt="WeatherApp" title="WeatherApp" src="./github/WeatherApp.gif" height="425" />
-  <img alt="WeatherApp" title="Persistência do tema e alerta de erro de cidade não encontrada" src="./github/WeatherAppThemePersistAndCityNotFound.gif" height="425" />
-
+  <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site1.gif" height="250" />
+  <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site2.gif" height="250" />
+  <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site3.gif" height="250" />
 </h1>
 
 ### Features
@@ -18,7 +18,7 @@
 
 ### Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As ferramentas que utilizei na construção do projeto foram:
 
 - [Bootstrap](https://getbootstrap.com/)
 - [SASS](https://sass-lang.com/)

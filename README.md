@@ -1,13 +1,13 @@
 <h1 align="center">Landing Pages UFC</h1>
 
-<p align="center">Esse projeto é um site fictício do UFC que fiz para práticar minhas habilidades, usei como base um projeto do curso da OneBitCode e também conhecimentos que adquiri com o curso ProgramadorBR e da Rocketseat.</p>
+<p align="center">Nesse projeto fiz 3 páginas inspiradas no UFC para práticar minhas habilidades, usei como inspiração um exercício da OneBitCode e também conhecimentos que adquiri com o curso ProgramadorBR e da Rocketseat.</p>
 <h1 align="center">
   <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site1.gif" height="250" />
   <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site2.gif" height="250" />
   <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site3.gif" height="250" />
 </h1>
 
-### Features
+### Características
 
 - [x] Responsividade
 - [x] Animations
@@ -30,7 +30,6 @@ As ferramentas que utilizei na construção do projeto foram:
 
 ### Autor
 
-<img alt="Felipe Gois Molleken" title="Felipe Molleken" src="" height="100" width="100" />
 
 By Felipe Molleken 👋
 

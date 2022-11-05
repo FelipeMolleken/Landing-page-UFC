@@ -1,6 +1,6 @@
 <h1 align="center">Landing Pages UFC</h1>
 
-<p align="center">Nesse projeto fiz 3 páginas apresentando o UFC para práticar minhas habilidades, usei como inspiração um exercício da OneBitCode e também conhecimentos que adquiri com o curso ProgramadorBR e o Explorer da Rocketseat.</p>
+<p align="center">Nesse projeto fiz 3 páginas apresentando o UFC, usei como inspiração um exercício da OneBitCode e também conhecimentos que adquiri com o curso ProgramadorBR e o Explorer da Rocketseat.</p>
 <h1 align="center">
   <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site1.gif" height="250" />
   <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site2.gif" height="250" />

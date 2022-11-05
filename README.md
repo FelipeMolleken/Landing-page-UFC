@@ -7,7 +7,7 @@
   <img alt="LandingPagesUFC" title="LandingPagesUFC" src="./ImagensUFC/site3.gif" height="250" />
 </h1>
 
- Você pode abrir o site no seu navegador clicando [aqui](https://landing-page-ufc.vercel.app/index.html)
+ Você pode abrir o site no seu navegador clicando [aqui.](https://landing-page-ufc.vercel.app/index.html) (As animações não funcionam)
  
 
 ### Características
